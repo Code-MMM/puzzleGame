@@ -39,19 +39,19 @@ function preload() {
     rusImg = loadImage("/gameSprites/Environment/Russia.png")
     luxumImg = loadImage("/gameSprites/Environment/Luxumborg.png")
 
-    playerRun_1 = loadImage("../gameSprites/Player/Run (1).png")
-    playerRun_2 = loadImage("../gameSprites/Player/Run (2).png")
-    playerRun_3 = loadImage("../gameSprites/Player/Run (3).png")
-    playerRun_4 = loadImage("../gameSprites/Player/Run (4).png")
-    playerRun_5 = loadImage("../gameSprites/Player/Run (5).png")
+    playerRun_1 = loadImage("/gameSprites/Player/Run (1).png")
+    playerRun_2 = loadImage("/gameSprites/Player/Run (2).png")
+    playerRun_3 = loadImage("/gameSprites/Player/Run (3).png")
+    playerRun_4 = loadImage("/gameSprites/Player/Run (4).png")
+    playerRun_5 = loadImage("/gameSprites/Player/Run (5).png")
 
-    playerIdle = loadAnimation("../gameSprites/Player/Idle (3).png", "../gameSprites/Player/Idle (6).png", "../gameSprites/Player/Idle (9).png", 
-    "../gameSprites/Player/Idle (12).png", "../gameSprites/Player/Idle (15).png");
+    playerIdle = loadAnimation("/gameSprites/Player/Idle (3).png", "/gameSprites/Player/Idle (6).png", "/gameSprites/Player/Idle (9).png", 
+    "/gameSprites/Player/Idle (12).png", "/gameSprites/Player/Idle (15).png");
     playerRun = loadAnimation(playerRun_1, playerRun_2, playerRun_3, playerRun_4, playerRun_5);
-    playerJump = loadAnimation("../gameSprites/Player/Jump (3).png", "../gameSprites/Player/Jump (6).png", "../gameSprites/Player/Jump (9).png", 
-    "../gameSprites/Player/Jump (12).png", "../gameSprites/Player/Jump (15).png");
-    playerRunL = loadAnimation("../gameSprites/Player/RunL (1).png", "../gameSprites/Player/RunL (2).png", "../gameSprites/Player/RunL (3).png", 
-    "../gameSprites/Player/RunL (4).png", "../gameSprites/Player/RunL (5).png")
+    playerJump = loadAnimation("/gameSprites/Player/Jump (3).png", "/gameSprites/Player/Jump (6).png", "/gameSprites/Player/Jump (9).png", 
+    "/gameSprites/Player/Jump (12).png", "/gameSprites/Player/Jump (15).png");
+    playerRunL = loadAnimation("/gameSprites/Player/RunL (1).png", "/gameSprites/Player/RunL (2).png", "/gameSprites/Player/RunL (3).png", 
+    "/gameSprites/Player/RunL (4).png", "/gameSprites/Player/RunL (5).png")
 
 }
 
